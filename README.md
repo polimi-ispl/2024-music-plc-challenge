@@ -62,7 +62,9 @@ Then, each team should submit the following files through [EasyChair](https://ea
 
 **The cloud storage folder must host a single zip file containing the enhanced audio files. Make sure that you zip as many audio clips as there are in the blind test set. Every enhanced clip should have the same filename as the corresponding degraded clip. Do not upload the degraded audio clips from the blind test set or any other file to the cloud storage folder.**
 
-Only teams that upload all the required material will be considered eligible for participating in the evaluation process. **Important: please make sure that the Supplemental material contains both the link to the enhanced audio clips and the link to the project repo.**
+Only teams that upload all the required material will be considered eligible for participating in the evaluation process.
+
+**Important: please make sure that the Supplemental material contains both the link to the enhanced audio clips and the link to the project repo.**
 
 ### Technical Reports
 Technical reports should not exceed 2 pages of scientific content (including tables and figures) + 1 optional page for references only. 
@@ -85,10 +87,11 @@ The audio clips are artificially degraded by dropping packets according to prede
 The packet traces used to create the blind test set were repurposed from the INTERSPEECH 2022 Audio Deep Packet Loss Concealment Challenge ([GitHub](https://github.com/microsoft/PLC-Challenge)). 
 
 Said traces are divided into three subsets according to the maximum burst loss length:
--	**Subset 1.** Bursts of up to 6 consecutive packets 
--	**Subset 2.** Bursts of 6 to 16 consecutive packets
--	**Subset 3.** Bursts of 16 to 50 consecutive packets
-We sample packet traces from subset 1 (with high probability) and subset 2 (with low probability). We do not sample traces from subset 3.
+-	**Subset 1.** Bursts of up to 6 consecutive packets. 
+-	**Subset 2.** Bursts of 6 to 16 consecutive packets.
+-	**Subset 3.** Bursts of 16 to 50 consecutive packets.
+
+We sample packet traces from Subset 1 (with high probability) and Subset 2 (with low probability). We do not sample traces from Subset 3.
 
 The resulting packet traces will be made available in txt format along with the corresponding degraded audio clips. In practice, such a degradation consists of filling the missing packets with zeros in the waveform domain. 
 
