@@ -1,6 +1,11 @@
 # IEEE-IS² 2024 Music Packet Loss Concealment Challenge
-📝 This is the official repository for the [IEEE-IS² 2024 Music Packet Loss Concealment Challenge](https://internetofsounds.net/ieee-is%C2%B2-2024-music-packet-loss-concealment-challenge/). 
-Here, partecipants will find the pretrained baseline model and inference code **(to be released on May 20, 2024)**.
+Welcome to the official repository for the [IEEE-IS² 2024 Music Packet Loss Concealment Challenge](https://internetofsounds.net/ieee-is%C2%B2-2024-music-packet-loss-concealment-challenge/)! 
+
+-----------------------------
+
+📣 **[Update – May 20, 2024]:** The [**baseline model**](https://github.com/polimi-ispl/2024-music-plc-challenge/tree/main/parcnet-is2) has been released!
+
+-----------------------------
 
 ## Introduction
 **IEEE-IS² 2024 Music Packet Loss Concealment Challenge** is intended to promote research on Packet Loss Concealment (PLC) for Networked Music Performance (NMP) applications.
