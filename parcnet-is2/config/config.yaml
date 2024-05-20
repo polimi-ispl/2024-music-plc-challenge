@@ -1,0 +1,30 @@
+global:
+  sr:                 44100
+  packet_dim:         512
+  extra_pred_dim:     256
+
+path:
+  source_audio_dir:   "path/to/training/audio/directory"
+  meta:               "path/to/training/metadata.csv"
+
+AR:
+  ar_order:           256
+  diagonal_load:      0.001
+  ar_context_dim:     8
+  fade_dim:           8
+
+neural_net:
+  lite:               true
+  steps_per_epoch:    500
+  gradient_clip:      2.0
+  max_epochs:         500
+  batch_size:         128
+  nn_context_dim:     8
+  fade_dim:           64
+
+inference:
+  meta:               "example_test_set/meta.txt"
+  lossy_audio_dir:    "example_test_set/lossy"
+  traces_dir:         "example_test_set/traces"
+  enhanced_audio_dir: "example_test_set/enhanced"
+  model_checkpoint:   "pretrained_models/parcnet-is2_baseline_checkpoint.ckpt"
