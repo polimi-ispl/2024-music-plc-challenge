@@ -191,6 +191,11 @@ Here are the changes with respect to the original PARCnet model:
 
 📝 For additional details, please refer to the [original paper](https://doi.org/10.1109/OJSP.2023.3343318).
 
+## License
+- The code contained in this repository is released under CC BY 4.0 &nbsp; <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" width="73">
+
+- The available PARCnet weights are released under CC BY-NC-SA 4.0 &nbsp; <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" width="75">
+
 ## Citation
 If you use PARCnet or PARCnet-IS² in your work, please consider citing
 ```
@@ -205,5 +210,6 @@ If you use PARCnet or PARCnet-IS² in your work, please consider citing
   doi={10.1109/OJSP.2023.3343318}
 }
 ```
+
 ## Contacts
 For questions, open an issue or contact [music.plc.challenge.2024@gmail.com](mailto:music.plc.challenge.2024@gmail.com)
