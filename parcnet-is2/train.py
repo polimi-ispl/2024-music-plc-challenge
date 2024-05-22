@@ -36,7 +36,7 @@ def main():
     checkpoint_callback = ModelCheckpoint(
         dirpath=tb_logger.log_dir + '/checkpoints',
         monitor='packet_val_mse',
-        filename="parcnet-is2_baseline_{epoch:02d}_{val_mse:.2f}_{packet_val_mse:.2f}_{val_sdr:.3f}_{packet_val_sdr:.3f}",
+        filename="parcnet-is2_baseline_{epoch:03d}_{val_mse:.2f}_{packet_val_mse:.2f}_{val_sdr:.3f}_{packet_val_sdr:.3f}",
         save_on_train_epoch_end=True,
         save_weights_only=True,
         save_top_k=10,
