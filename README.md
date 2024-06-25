@@ -3,6 +3,8 @@ Welcome to the official repository for the [IEEE-IS² 2024 Music Packet Loss Con
 
 -----------------------------
 
+📣 **[Update]:** The Challenge submission deadline has been postponed to July 20, 2024.
+
 📣 **[Update – May 20, 2024]:** The [**baseline model**](https://github.com/polimi-ispl/2024-music-plc-challenge/tree/main/parcnet-is2) has been released!
 
 -----------------------------
@@ -19,9 +21,9 @@ IEEE-IS² 2024 Music Packet Loss Concealment Challenge is part of the **2nd IEEE
 ## Important Dates
 -	**May 13, 2024** – Challenge start
 -	**May 20, 2024** – Release of the baseline system
--	**June 16, 2024** – Challenge registration deadline
+-	~~June 16, 2024~~ **June 26, 2024** – Challenge registration deadline
 -	**July 3, 2024** – Release of blind test set
--	**July 10, 2024** – Challenge submissions due
+-	~~July 10, 2024~~ **July 20, 2024** – Challenge submissions due
 -	**Sept 10, 2024** – (tentative) Notification of evaluation results
 -	**Sept 30, 2024 - Oct 2, 2024** – Symposium dates
   
