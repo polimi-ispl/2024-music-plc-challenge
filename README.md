@@ -2,8 +2,13 @@
 Welcome to the official repository for the [IEEE-IS² 2024 Music Packet Loss Concealment Challenge](https://internetofsounds.net/ieee-is%C2%B2-2024-music-packet-loss-concealment-challenge/)! 
 
 -----------------------------
+🔔 **[Update – July 03, 2024]:** The **<ins>Blind Test Set</ins>** has been released: [**direct download**](https://polimi365-my.sharepoint.com/:u:/g/personal/10391311_polimi_it/EVD_83a4tWhItZ2dTrQpNx8BCP2spHJzEMxVMHOIwnkR6w?download=1) :inbox_tray:
 
-📣 **[Update]:** The Challenge submission deadline has been postponed to July 20, 2024.
+-----------------------------
+
+📆 The Challenge submission deadline has been postponed to July 20, 2024.
+
+-----------------------------
 
 📣 **[Update – May 20, 2024]:** The [**baseline model**](https://github.com/polimi-ispl/2024-music-plc-challenge/tree/main/parcnet-is2) has been released!
 
@@ -19,13 +24,13 @@ We invite researchers and practitioners in signal processing, machine learning, 
 IEEE-IS² 2024 Music Packet Loss Concealment Challenge is part of the **2nd IEEE International Workshop on Networked Immersive Audio ([IEEE IWNIA 2024](https://internetofsounds.net/2nd-international-workshop-on-networked-immersive-audio/))**, a satellite event of the **5th IEEE International Symposium on the Internet of Sounds ([IEEE IS² 2024](https://internetofsounds.net/is2_2024/))**. The Symposium will be hosted at the International Audio Laboratories Erlangen, Germany, a joint institution of the Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) and Fraunhofer Institute for Integrated Circuits IIS, between Sept. 30 and Oct. 2, 2024.
 
 ## Important Dates
--	**May 13, 2024** – Challenge start
--	**May 20, 2024** – Release of the baseline system
--	~~June 16, 2024~~ **June 26, 2024** – Challenge registration deadline
--	**July 3, 2024** – Release of blind test set
--	~~July 10, 2024~~ **July 20, 2024** – Challenge submissions due
--	**Sept 10, 2024** – (tentative) Notification of evaluation results
--	**Sept 30, 2024 - Oct 2, 2024** – Symposium dates
+- [x]	**May 13, 2024** – Challenge start
+-	[x] **May 20, 2024** – Release of the baseline system
+-	[x] ~~June 16, 2024~~ **June 26, 2024** – Challenge registration deadline
+-	[x] **July 3, 2024** – Release of blind test set
+-	[ ] ~~July 10, 2024~~ **July 20, 2024** – Challenge submissions due
+-	[ ] **Sept 10, 2024** – (tentative) Notification of evaluation results
+-	[ ] **Sept 30, 2024 - Oct 2, 2024** – Symposium dates
   
 ## Problem Formulation
 Packet-switched networks often rely on best-effort protocols that prioritize speed over reliability. This means there are no guarantees that audio data packets will be correctly transmitted. In fact, excessive delays due to high packet jitter or missing packet may cause gaps in the audio stream at the receiver end.
@@ -53,8 +58,11 @@ The final files (see **Submission Rules**) can be uploaded by updating an existi
 **Every team is allowed to submit up to two PLC systems for evaluation.** Each system should be submitted independently of the other by creating a new submission (with a unique title).
 
 ## Submission Rules
-Once the blind test set is released, every team is required to:
--	Download the blind test set.
+
+📣 The **Blind Test Set** is now available: [**direct download**](https://polimi365-my.sharepoint.com/:u:/g/personal/10391311_polimi_it/EVD_83a4tWhItZ2dTrQpNx8BCP2spHJzEMxVMHOIwnkR6w?download=1)
+
+Every team is required to:
+-	[Download](https://polimi365-my.sharepoint.com/:u:/g/personal/10391311_polimi_it/EVD_83a4tWhItZ2dTrQpNx8BCP2spHJzEMxVMHOIwnkR6w?download=1) the blind test set.
 -	Process each and every degraded audio clip using the proposed PLC method.
 -	Save the enhanced audio clips as 16bit-44.1kHz single-channel wav files making sure to use the same filenames of the corresponding degraded audio clips. 
 -	Compress the enhanced audio files in a single zip file.
@@ -80,14 +88,14 @@ Technical reports should describe the proposed approach and provide all the deta
 
 Please notice that **technical reports will <ins>not</ins> be included in the Symposium Proceedings**. Nevertheless, authors are warmly encouraged to submit a regular IS² 2024 paper outlining their PLC method. Regular papers will undergo the normal peer-review process, whereas technical reports will not. 
 
-**Paper acceptance and registration to the conference are not required for taking part in the 2024 Music Packet Loss Concealment Challenge.**
+<ins>**Paper acceptance and registration to the conference are not required for taking part in the 2024 Music Packet Loss Concealment Challenge.**</ins>
 
 ### Official Templates
 For drafting the 2-page technical report, please use the same LaTeX and Word template as of regular IS² papers. Official templates can be found here: [IEEE conference templates](https://www.ieee.org/conferences/publishing/templates.html)  
 
 ## Evaluation Rules
 ### Blind Test Set
-The blind test set consists of several single-channel audio clips in a 16bit-44.1kHz wav format. Every file consists of a short clip of a closed-miked solo-instrument performance. The dataset will comprise various acoustic instruments, including strings, brass instruments, bass, and classical guitar. 
+The blind test set consists of 162 single-channel audio files in a 16bit-44.1kHz wav format. Every file consists of a short clip of a closed-miked solo-instrument performance. The dataset comprises various acoustic instruments, including strings, brass instruments, double bass, and classical guitar. 
 
 The audio clips are artificially degraded by dropping packets according to predetermined “packet traces,” i.e., text files containing a string of binary digits: 0 if a packet was correctly received and 1 if the packet was lost. Every digit in a packet trace corresponds to 512 samples. Traces do not contain explicit temporal information, and the packet rate is implicitly determined by the audio sampling rate.
 
@@ -100,14 +108,12 @@ Said traces are divided into three subsets according to the maximum burst loss l
 
 We sample packet traces from Subset 1 (with high probability) and Subset 2 (with low probability). We do not sample traces from Subset 3.
 
-The resulting packet traces will be made available in txt format along with the corresponding degraded audio clips. In practice, such a degradation consists of filling the missing packets with zeros in the waveform domain. 
+The resulting packet traces are available in txt format along with the corresponding degraded audio clips. In practice, such a degradation consists of filling the missing packets with zeros in the waveform domain. 
 
-The blind test set will be released shortly before the Challenge submission deadline.
-
-Participants are forbidden from using the  blind test set to retrain or tune their models. They should not submit results using other PLC methods other than the one they have developed. **Failing to adhere to these rules will lead to disqualification from the Challenge.**
+Participants are forbidden from using the blind test set to retrain or tune their models. They should not submit results using other PLC methods other than the one they have developed. **Failing to adhere to these rules will lead to disqualification from the Challenge.**
 
 ### Evaluation Procedure
-Once the blind test set is made available, participants should process every track using their own PLC system, create a single zip file containing all the resulting audio clips, upload the zip file on a cloud storage service, and submit a permanent link through EasyChair. 
+Participants should process every track using their own PLC system, create a single zip file containing all the resulting audio clips, upload the zip file on a cloud storage service, and submit a permanent link through EasyChair. 
 
 Please do not upload audio files or model weights on EasyChair.
 
