@@ -2,11 +2,16 @@
 Welcome to the official repository for the [IEEE-IS² 2024 Music Packet Loss Concealment Challenge](https://internetofsounds.net/ieee-is%C2%B2-2024-music-packet-loss-concealment-challenge/)! 
 
 -----------------------------
+
+### :checkered_flag: **[Update]:** The Challenge is now closed.
+
+-----------------------------
+
 🔔 **[Update – July 03, 2024]:** The **<ins>Blind Test Set</ins>** has been released: [**direct download**](https://polimi365-my.sharepoint.com/:u:/g/personal/10391311_polimi_it/EVD_83a4tWhItZ2dTrQpNx8BCP2spHJzEMxVMHOIwnkR6w?download=1) :inbox_tray:
 
 -----------------------------
 
-📆 The Challenge submission deadline has been postponed to July 20, 2024.
+📆 The **Challenge submission deadline** has been postponed to **July 20, 2024**.
 
 -----------------------------
 
@@ -28,7 +33,7 @@ IEEE-IS² 2024 Music Packet Loss Concealment Challenge is part of the **2nd IEEE
 -	[x] **May 20, 2024** – Release of the baseline system
 -	[x] ~~June 16, 2024~~ **June 26, 2024** – Challenge registration deadline
 -	[x] **July 3, 2024** – Release of blind test set
--	[ ] ~~July 10, 2024~~ **July 20, 2024** – Challenge submissions due
+-	[x] ~~July 10, 2024~~ **July 20 2024** – Challenge submissions due
 -	[ ] **Sept 10, 2024** – (tentative) Notification of evaluation results
 -	[ ] **Sept 30, 2024 - Oct 2, 2024** – Symposium dates
   
