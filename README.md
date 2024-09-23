@@ -134,8 +134,6 @@ In the MUSHRA test, the enhanced clips from each team will be assigned a score o
 
 If needed, the submitted audio clips will be converted to mono via channel average and saved as 16bit-44.1kHz wav files before the evaluation. Consider that this procedure is automatic and might affect the audio quality of your submission. Please upload audio in the right format in the first place.
 
-**Evaluation results will be (tentatively) published on September 10th, 2024.**
-
 Several objective metrics will also be computed, including but not limited to mean squared error, log-spectral distortion, and PEAQ. Nonetheless, these metrics will not be taken into consideration for determining the team ranking. 
 
 ## Training Data
