@@ -34,7 +34,7 @@ IEEE-IS² 2024 Music Packet Loss Concealment Challenge is part of the **2nd IEEE
 -	[x] ~~June 16, 2024~~ **June 26, 2024** – Challenge registration deadline
 -	[x] **July 3, 2024** – Release of blind test set
 -	[x] ~~July 10, 2024~~ **July 20 2024** – Challenge submissions due
--	[ ] **Sept 10, 2024** – (tentative) Notification of evaluation results
+-	[x] **Sept 10, 2024** – (tentative) Notification of evaluation results
 -	[ ] **Sept 30, 2024 - Oct 2, 2024** – Symposium dates
   
 ## Problem Formulation
