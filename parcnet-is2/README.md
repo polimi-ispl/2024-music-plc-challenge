@@ -93,7 +93,7 @@ Downsampling layers halve the input size via max-pooling, whereas upsampling lay
 interpolation. The dilation rate grows as a power of two $2^{j}$ with every $j$-th GLU block in the bottleneck, 
 $j=0, ..., 5$.
 
-The neural network is trained or 185,000 steps using RAdam and mini-batches of 128 randomly-sampled waveform segments. 
+The neural network is trained or 250,000 steps using RAdam and mini-batches of 128 randomly-sampled waveform segments. 
 
 ## Inference
 
