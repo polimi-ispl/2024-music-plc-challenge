@@ -3,7 +3,12 @@ Welcome to the official repository for the [IEEE-IS² 2024 Music Packet Loss Con
 
 -----------------------------
 
-### :checkered_flag: **[Update]:** The Challenge is now closed.
+### :checkered_flag: The Challenge is now closed.
+
+-----------------------------
+
+📝 **[Update – October, 02, 2024]:** The 2024 Challenge report is available on arXiv: [https://arxiv.org/abs/2409.18564](https://arxiv.org/abs/2409.18564)
+
 
 -----------------------------
 
@@ -35,7 +40,7 @@ IEEE-IS² 2024 Music Packet Loss Concealment Challenge is part of the **2nd IEEE
 -	[x] **July 3, 2024** – Release of blind test set
 -	[x] ~~July 10, 2024~~ **July 20 2024** – Challenge submissions due
 -	[x] **Sept 10, 2024** – (tentative) Notification of evaluation results
--	[ ] **Sept 30, 2024 - Oct 2, 2024** – Symposium dates
+-	[x] **Sept 30, 2024 - Oct 2, 2024** – Symposium dates
   
 ## Problem Formulation
 Packet-switched networks often rely on best-effort protocols that prioritize speed over reliability. This means there are no guarantees that audio data packets will be correctly transmitted. In fact, excessive delays due to high packet jitter or missing packet may cause gaps in the audio stream at the receiver end.
@@ -148,16 +153,31 @@ You can augment your data in any way that improves the performance of your model
 Also, participants are strictly prohibited from employing the blind test set for any training or fine-tuning purposes.
 
 ## Baseline System
-We release a baseline system for the IEEE-IS² 2024 Music Packet Loss Concealment Challenge. The system is a modified PARCnet architecture [1] trained on [Medley-solos-DB](https://zenodo.org/records/3464194) [2].
+We release a baseline system for the IEEE-IS² 2024 Music Packet Loss Concealment Challenge. 📣 **The code is available [here](https://github.com/polimi-ispl/2024-music-plc-challenge/tree/main/parcnet-is2)!**
+
+The system is a modified PARCnet architecture [1] trained on Medley-solos-DB [2].
 
 PARCnet comprises a linear predictor and a lightweight feedforward ConvNet. The linear predictor is fitted in real-time within a sliding context window using the autocorrelation method with white noise compensation, while the ConvNet is trained to estimate the residual of the linear autoregressive model. 
 
-Medley-solos-DB contains 21572 isolated audio clips of clarinet, distorted electric guitar, female singer, flute, piano, tenor saxophone, trumpet, and violin. The Medley-solos-DB instrument set has some overlap with the instruments featured in the blind test set, but it is not a one-to-one correspondence. Moreover, the overall recording conditions vary significantly between the two datasets. Note that the baseline system was not validated on blind test data.
+[Medley-solos-DB](https://zenodo.org/records/3464194) contains 21572 isolated audio clips of clarinet, distorted electric guitar, female singer, flute, piano, tenor saxophone, trumpet, and violin. The Medley-solos-DB instrument set has some overlap with the instruments featured in the blind test set, but it is not a one-to-one correspondence. Moreover, the overall recording conditions vary significantly between the two datasets. Note that the baseline system was not validated on blind test data.
 
 > [1] A. I. Mezza, M. Amerena, A. Bernardini and A. Sarti, "Hybrid Packet Loss Concealment for Real-Time Networked Music Applications," in IEEE Open Journal of Signal Processing, vol. 5, pp. 266-273, 2024, doi: 10.1109/OJSP.2023.3343318.
 
 > [2] V. Lostanlen and C.E. Cella, “Deep convolutional networks on the pitch spiral for musical instrument recognition,” in Proceedings of the International Society for Music Information Retrieval Conference (ISMIR), 2016.
 
+If you found PARCnet-IS² helpful and would like to reference it in your research paper, please cite
+```
+@article{mezza2024hybrid,
+  author={Mezza, Alessandro Ilic and Amerena, Matteo and Bernardini, Alberto and Sarti, Augusto},
+  journal={IEEE Open Journal of Signal Processing}, 
+  title={Hybrid Packet Loss Concealment for Real-Time Networked Music Applications}, 
+  year={2024},
+  volume={5},
+  number={},
+  pages={266-273},
+  doi={10.1109/OJSP.2023.3343318}
+}
+``` 
 ## Real-Time Performance
 Practical PLC systems should take less than a stride length (in ms) to process the next frame. This means that, overall, submitted methods should take less than 11.6 ms to estimate the next 512-sample packet.
 
