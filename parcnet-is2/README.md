@@ -3,7 +3,21 @@
 ## PARCnet-IS²
 PARCnet-IS² is an updated version of PARCnet developed for the [IEEE-IS² 2024 Music PLC Challenge](https://internetofsounds.net/ieee-is%c2%b2-2024-music-packet-loss-concealment-challenge/). 
 
-Compared to the original model, PARCnet-IS² incorporates several minor modifications, primarily due to the higher sampling rate required by the Challenge (see [Challenge rules](https://github.com/polimi-ispl/2024-music-plc-challenge/blob/main/README.md)). 
+Compared to the original model, PARCnet-IS² incorporates several minor modifications, primarily due to the higher sampling rate required by the 2024 Challenge (see [Challenge rules](https://github.com/polimi-ispl/2024-music-plc-challenge/blob/main/README.md)). 
+
+If you would like to reference PARCnet-IS² in your work, please cite
+```
+@article{mezza2024hybrid,
+  author={Mezza, Alessandro Ilic and Amerena, Matteo and Bernardini, Alberto and Sarti, Augusto},
+  journal={IEEE Open Journal of Signal Processing}, 
+  title={Hybrid Packet Loss Concealment for Real-Time Networked Music Applications}, 
+  year={2024},
+  volume={5},
+  number={},
+  pages={266-273},
+  doi={10.1109/OJSP.2023.3343318}
+}
+```
 
 ---------------
 
