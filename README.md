@@ -7,7 +7,10 @@ Welcome to the official repository for the [IEEE-IS² 2024 Music Packet Loss Con
 
 -----------------------------
 
-📝 **[Update – October, 02, 2024]:** The 2024 Challenge report is available on arXiv: [https://arxiv.org/abs/2409.18564](https://arxiv.org/abs/2409.18564)
+📝 **[Update – October, 02, 2024]:** The 2024 Challenge report is now available on arXiv: [https://arxiv.org/abs/2409.18564](https://arxiv.org/abs/2409.18564)
+
+* The partecipants' technical reports are available on the IoSRN website. **Direct download:** [Daniotti et al.](http://internetofsounds.net/public_downloads/Daniotti_tech_report.pdf) and  [Aironi et al.](http://internetofsounds.net/public_downloads/Aironi_tech_report.pdf)
+* To cite the baseline system, please reference: [https://doi.org/10.1109/OJSP.2023.3343318](https://doi.org/10.1109/OJSP.2023.3343318)
 
 
 -----------------------------
