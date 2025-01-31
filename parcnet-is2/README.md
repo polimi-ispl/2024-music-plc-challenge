@@ -1,5 +1,7 @@
 # IEEE-IS² 2024 Music PLC Challenge Baseline
 
+> PARCnet-IS² has been chosen as the baseline model for the **IEEE-IS² 2025 Music Packet Loss Concealment Challenge**. Participants in the 2025 edition should refer to the [new Challenge rules](https://github.com/polimi-ispl/2025-music-plc-challenge).
+
 ## PARCnet-IS²
 PARCnet-IS² is an updated version of PARCnet developed for the [IEEE-IS² 2024 Music PLC Challenge](https://internetofsounds.net/ieee-is%c2%b2-2024-music-packet-loss-concealment-challenge/). 
 
@@ -226,4 +228,4 @@ If you use PARCnet or PARCnet-IS² in your work, please consider citing
 ```
 
 ## Contacts
-For questions, open an issue or contact [music.plc.challenge.2024@gmail.com](mailto:music.plc.challenge.2024@gmail.com)
+For questions, open an issue or contact [music.plc.challenge@gmail.com](mailto:music.plc.challenge@gmail.com)
