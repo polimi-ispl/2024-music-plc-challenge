@@ -5,12 +5,15 @@ Welcome to the official repository for the [IEEE-IS² 2024 Music Packet Loss Con
 
 ### :checkered_flag: The Challenge is now closed.
 
+> The 2025 edition of the Challenge is now live. Find out more here: [[website]](https://internetofsounds2025.ieee-is2.org/workshops/3rd-ieee-international-workshop-networked-immersive-audio/music-packet-loss-concealment) [[GitHub]](https://github.com/polimi-ispl/2025-music-plc-challenge)
+
 -----------------------------
 
 📝 **[Update – October, 02, 2024]:** The 2024 Challenge report is now available on arXiv: [https://arxiv.org/abs/2409.18564](https://arxiv.org/abs/2409.18564)
 
-* The partecipants' technical reports are available on the IoSRN website. **Direct download:** [Daniotti et al.](http://internetofsounds.net/public_downloads/Daniotti_tech_report.pdf) and  [Aironi et al.](http://internetofsounds.net/public_downloads/Aironi_tech_report.pdf)
-* To cite the baseline system, please reference: [https://doi.org/10.1109/OJSP.2023.3343318](https://doi.org/10.1109/OJSP.2023.3343318)
+- The partecipants' technical reports are available on the IoSRN website. 
+   - **Direct download:** [Daniotti et al.](http://internetofsounds.net/public_downloads/Daniotti_tech_report.pdf) and  [Aironi et al.](http://internetofsounds.net/public_downloads/Aironi_tech_report.pdf)
+- To cite the baseline system, please reference: [https://doi.org/10.1109/OJSP.2023.3343318](https://doi.org/10.1109/OJSP.2023.3343318)
 
 
 -----------------------------
@@ -189,5 +192,9 @@ However, since we are not collecting and running models during the evaluation ph
 Slower-than-real-time inference is not a reason for disqualifying a team from the Challenge. However, we encourage all participants to respect the real-time constraints as strictly as possible.
 
 ## Contacts
-For questions, please contact [music.plc.challenge.2024@gmail.com](mailto:music.plc.challenge.2024@gmail.com)
+For questions, please contact [music.plc.challenge@gmail.com](mailto:music.plc.challenge@gmail.com)
+
+## Organizers
+*	**Alessandro Ilic Mezza** (Politecnico di Milano)
+*	**Alberto Bernardini** (Politecnico di Milano)
 
