@@ -141,7 +141,7 @@ Since no objective metric was definitively proved to correlate well with human p
 
 In particular, the evaluation will involve a modified **MUSHRA** test (MUltiple Stimuli with Hidden Reference and Anchor) defined by ITU-R Recommendation BS.1534-3. 
 
-In the MUSHRA test, the enhanced clips from each team will be assigned a score on a scale of 0 to 100. For each clip, assessors will be tasked to identify the “Hidden Reference,” i.e., the clean untampered signal, and assign it the highest possible score. At the same time, assessors will be presented with an “Anchor,” i.e., the lower bound of the perceptual scale. Here, zero-filled lossy signals from the blind test set will be used as Anchors. The average score across all MUSHRA ratings will determine the final ranking of each PLC system.
+In the MUSHRA test, the enhanced clips from each team will be assigned a score on a scale of 0 to 100. For each clip, assessors will be tasked to identify the “Hidden Reference,” i.e., the clean untampered signal, and assign it the highest possible score. At the same time, assessors will be presented with an “Anchor,” i.e., the lower bound of the perceptual scale. Here, zero-filled lossy signals from the blind test set will be used as Anchors.
 
 If needed, the submitted audio clips will be converted to mono via channel average and saved as 16bit-44.1kHz wav files before the evaluation. Consider that this procedure is automatic and might affect the audio quality of your submission. Please upload audio in the right format in the first place.
 
